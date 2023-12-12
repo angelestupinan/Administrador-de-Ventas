@@ -38,7 +38,7 @@ namespace Administrador_de_Ventas
             string total = v.Total.ToString();
             string codigoVenta = v.CodigoVenta.ToString();
 
-            string path = @$"c:\Users\Angel\source\repos\Ventas\TICKET{codigoVenta}.txt";
+            string path = @$"TICKET{codigoVenta}.txt";
             // Create a file to write to.
             using (StreamWriter sw = File.CreateText(path))
             {
